@@ -43,4 +43,19 @@ git push -u origin master
 
 
 
+**不行**，重新rm -r public 试试。tangzhongham.github.io 建点东西，好像听说不能完全为空。
+
+删完又 git add git commit/ git push -u origin master 了一波。
+
+重复第7步
+```
+cd ./public
+git pull --allow-unrelated-histories
+git push 解决两边不一样的问题（http那边创建了个README）
+```
+
+
+
+
+
 ## 常见错误
