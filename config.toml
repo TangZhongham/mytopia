@@ -128,12 +128,6 @@ tag = "tags"
 page = "/:slug/"
 
 [[menu.main]]
-name = "Repo"
-weight = -10
-identifier = "repository"
-url = "https://github.com/MunifTanjim/minimo"
-
-[[menu.main]]
 name = "Categories"
 weight = -10
 identifier = "category"
@@ -156,6 +150,12 @@ name = "入门"
 weight = -10
 identifier = "intro"
 url = "/intro"
+
+[[menu.main]]
+name = "日记"
+weight = -10
+identifier = "diary"
+url = "/diary"
 
 [blackfriday]
 hrefTargetBlank = true
