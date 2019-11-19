@@ -59,6 +59,7 @@ git push 解决两边不一样的问题（http那边创建了个README）
 现在的操作流程就是说，先改文章。然后 /mytopia 下面 hugo -buildDrafts 然后 git add/commit/push 三连，之后 去 /build 里面 三连，页面才能更新。
 
 现在他妈js 又404 了，搞毛线
-
+新问题好像是在外面 git push 之后，里面再 git status 就 检测不到了，然后页面上 mytopia 的 public 被 push 了，但是 io 的没有。
+不知道404 是不是由于这个原因。尝试 hugo -buildDrafts 之后先提交里面的试试。
 
 ## 常见错误
