@@ -56,6 +56,8 @@ git push 解决两边不一样的问题（http那边创建了个README）
 
 
 
+现在的操作流程就是说，先改文章。然后 /mytopia 下面 hugo -buildDrafts 然后 git add/commit/push 三连，之后 去 /build 里面 三连，页面才能更新。
+
 
 
 ## 常见错误
