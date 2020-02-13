@@ -25,5 +25,5 @@ hugo new /posts/new_intro.md // 创建一篇新的博文
 
 ```shell
 git add .
-git 
+git llala
 ```
