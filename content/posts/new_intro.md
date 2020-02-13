@@ -24,6 +24,22 @@ hugo new /posts/new_intro.md // 创建一篇新的博文
 ## 发布
 
 ```shell
+cd ./mytopia
+hugo -D
+cd build
 git add .
-git llala
+git commit -m "xxx"
+git push original master
 ```
+
+**注意**, 以上这部分推送之后, 页面就更新了, 但是其实本体文件并没有上传到github保存, 建议先如下操作:
+
+```shell
+cd ./mytopia
+hugo -D
+git add .
+git commit -m "xxx"
+git push original master
+```
+
+deploy文件:
