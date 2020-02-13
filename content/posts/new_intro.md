@@ -43,3 +43,9 @@ git push original master
 ```
 
 deploy文件:
+
+## TODO
+
+- [ ] deployment 文件撰写
+
+创建了一个改版的sh文件,不知道咋样,试试.

@@ -82,6 +82,7 @@ git push 解决两边不一样的问题（http那边创建了个README）
 
 
 现在的操作流程就是说，先改文章。然后 /mytopia 下面 hugo -buildDrafts 然后 git add/commit/push 三连，之后 去 /build 里面 三连，页面才能更新。
+(发现不成功的原因是 -buildDrafts 少了一个 - 符号, 要么是-D 要么是 --buildDrafts)
 
 现在他妈js 又404 了，搞毛线
 新问题好像是在外面 git push 之后，里面再 git status 就 检测不到了，然后页面上 mytopia 的 public 被 push 了，但是 io 的没有。
