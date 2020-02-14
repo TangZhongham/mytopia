@@ -5,6 +5,7 @@ set -e
 
 printf "\033[0;32mDeploying updates to tangzhongham...\033[0m\n"
 
+
 # Build the project.
 hugo -D # if using a theme, replace with `hugo -t <YOURTHEME>`
 
@@ -32,3 +33,4 @@ git commit -m "$msg"
 git push origin master
 
 printf "upload success, enjoy your journey! "
+
