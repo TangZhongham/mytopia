@@ -90,4 +90,6 @@ git push origin master
 
 printf "upload success, enjoy your journey! "
 
+ps: 发现该shell脚本自带传参功能了...
+
 ```
