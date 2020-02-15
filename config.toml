@@ -52,12 +52,12 @@ hideMainMenu = false
 rtl = false
 
 [params.sidebar]
-enable = true
+enable = true   
 
 [params.widgets]
 header = ["breadcrumbs"]
 homepage = ["recent_posts"]
-sidebar = ["about","search","sidebar_menu","taxonomy_cloud"]
+sidebar = ["about","sidebar_menu","taxonomy_cloud"]
 footer = ["social_menu"]
 
 [params.opengraph.facebook]
@@ -73,16 +73,11 @@ page = "" # Twitter page username
 titleSeparator = "•"
 
 [params.social]
-codepen = "MunifTanjim"
-email = "contact@example.com"
-facebook = "MunifTanjim"
-github = "MunifTanjim"
-gitlab = "MunifTanjim"
-instagram = "MunifTanjim"
-linkedin = "muniftanjim"
-twitter = "MunifTanjim"
-telegram = "MunifTanjim"
-google_scholar = "qc6CJjYAAAAJ"
+email = "13122260573@163.com"
+facebook = "tangzhongham"
+github = "tangzhongham"
+instagram = "TZHDSG"
+twitter = "TZHDSG"
 youtube = "UCT-U0rNerYxItGcuoPX-WYA"
 
 [params.comments]
@@ -110,8 +105,6 @@ issueTerm = "pathname" # pathname / url / title
 username = "MunifTanjim"
 repository = "minimo"
 
-[params.search]
-client = "fuse" # algolia / fuse / lunr
 
 
 
@@ -143,16 +136,16 @@ identifier = "posts"
 url = "/posts"
 
 [[menu.main]]
-name = "入门"
-weight = -10
-identifier = "intro"
-url = "/intro"
-
-[[menu.main]]
 name = "日记"
 weight = -10
 identifier = "diary"
 url = "/diary"
+
+[[menu.main]]
+name = "hugo入门"
+weight = -10
+identifier = "intro"
+url = "/intro"
 
 [blackfriday]
 hrefTargetBlank = true
