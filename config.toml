@@ -60,25 +60,14 @@ homepage = ["recent_posts"]
 sidebar = ["about","sidebar_menu","taxonomy_cloud"]
 footer = ["social_menu"]
 
-[params.opengraph.facebook]
-admins = [] # array of Facebook IDs
-appID = ""
-pageID = ""
-
-[params.opengraph.twitter]
-page = "" # Twitter page username
-
 [params.seo]
 # Title Separator: - – — · • * ⋆ | ~ « » < >
 titleSeparator = "•"
 
 [params.social]
 email = "13122260573@163.com"
-facebook = "tangzhongham"
 github = "tangzhongham"
 instagram = "TZHDSG"
-twitter = "TZHDSG"
-youtube = "UCT-U0rNerYxItGcuoPX-WYA"
 
 [params.comments]
 enable = false
@@ -106,22 +95,11 @@ username = "MunifTanjim"
 repository = "minimo"
 
 
-
-
 [taxonomies]
 author = "authors"
 category = "categories"
 series = "series"
 tag = "tags"
-
-[permalinks]
-page = "/:slug/"
-
-[[menu.main]]
-name = "Categories"
-weight = -10
-identifier = "category"
-url = "/categories"
 
 [[menu.main]]
 name = "About"
@@ -130,16 +108,29 @@ identifier = "about"
 url = "/about"
 
 [[menu.main]]
-name = "Posts"
+name = "Flink笔记"
 weight = -10
-identifier = "posts"
-url = "/posts"
+identifier = "flink"
+url = "/flink"
 
 [[menu.main]]
-name = "日记"
+name = "Kafka笔记"
 weight = -10
-identifier = "diary"
-url = "/diary"
+identifier = "kafka"
+url = "/kafka"
+
+[[menu.main]]
+name = "Java学习"
+weight = -10
+identifier = "java"
+url = "/java"
+
+[[menu.main]]
+name = "Scala学习"
+weight = -10
+identifier = "scala"
+url = "/scala"
+
 
 [[menu.main]]
 name = "hugo入门"
