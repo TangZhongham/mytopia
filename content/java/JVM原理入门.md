@@ -81,7 +81,7 @@ Java 出生时主要解决的两个问题:
 
 比方说, 你写了一个 hello world 的 C程序, 在linux编译完后的可执行文件是不可以在windows运行的. (generally) 但是你没听说写一段 Java 代码还分 windows/linux 吧. 这就是 JVM 的优势了.
 
-![xx](./images/jvmlogic.png)
+![xx](/static/jvmlogic.png)
 
 ### Java、JDK、JRE
 

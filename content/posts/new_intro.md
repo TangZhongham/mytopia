@@ -42,7 +42,7 @@ git commit -m "xxx"
 git push original master
 ```
 
-deploy文件:
+二进制图片怎么办: ![xx](/static/jvmlogic.png)
 
 ## TODO
 

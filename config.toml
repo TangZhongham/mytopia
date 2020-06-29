@@ -19,7 +19,7 @@ pygmentsCodefences = true
 enableEmoji = true
 
 # Missing translations will default to this content language
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh"
 
 [params.info]
 description = "A place for him to create."
@@ -143,7 +143,7 @@ hrefTargetBlank = true
 
 [languages]
 # edit this block for your own language
-[languages.en]
-lang = "en"
-languageName = "English"
+[languages.zh]
+lang = "zh"
+languageName = "Chinese"
 weight = 1
