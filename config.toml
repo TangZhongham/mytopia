@@ -131,6 +131,11 @@ weight = -10
 identifier = "scala"
 url = "/scala"
 
+[[menu.main]]
+name = "QUANT宽客"
+weight = -10
+identifier = "quant"
+url = "/quant"
 
 [[menu.main]]
 name = "hugo入门"
