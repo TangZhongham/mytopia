@@ -9,6 +9,7 @@ draft: true
 > How to install rust and offer learning materials
 
 - [ ] start rust 项目学习 rust
+- [ ] 添加自定义股票列表
 
 ## 安装rust环境
 
