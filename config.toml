@@ -23,7 +23,10 @@ defaultContentLanguage = "zh"
 
 [params.info]
 description = "A place for him to create."
-title404 = "Nothing's here!"
+title404 = "这里什么也没有😯"
+
+[params.search]
+client = "fuse"
 
 [params.assets]
 favicon = "favicon.ico"
@@ -57,7 +60,7 @@ enable = true
 [params.widgets]
 header = ["breadcrumbs"]
 homepage = ["recent_posts"]
-sidebar = ["about","sidebar_menu","taxonomy_cloud"]
+sidebar = ["about","sidebar_menu","taxonomy_cloud", "search"]
 footer = ["social_menu"]
 
 [params.seo]
@@ -70,7 +73,7 @@ github = "tangzhongham"
 instagram = "TZHDSG"
 
 [params.comments]
-enable = false
+enable = true
 
 # Isso: https://posativ.org/isso/
 [params.comments.isso]
@@ -79,7 +82,7 @@ scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
 dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [params.comments.staticman]
-enable = true
+enable = false
 apiEndpoint = "https://api.staticman.net/v2/entry"
 maxDepth = 2
 username = "MunifTanjim"
@@ -87,12 +90,14 @@ repository = "minimo"
 
 # Utterances: https://utteranc.es
 [params.comments.utterances]
-enable = false
+enable = true
 issueTerm = "pathname" # pathname / url / title
+label = ""
+theme = "github-light"
 
 [params.comments.utterances.github]
-username = "MunifTanjim"
-repository = "minimo"
+username = "TangZhongham"
+repository = "blog-comments"
 
 
 [taxonomies]
