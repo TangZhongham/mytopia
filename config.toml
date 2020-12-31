@@ -148,6 +148,12 @@ weight = -10
 identifier = "intro"
 url = "/intro"
 
+[[menu.main]]
+name = "留学和移民"
+weight = -10
+identifier = "escape"
+url = "/escape"
+
 [blackfriday]
 hrefTargetBlank = true
 
